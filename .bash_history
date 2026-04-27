@@ -78,3 +78,49 @@ nano sjf.c
 nano asdf.c
 gcc asdf.c -o asdf
 ./asdf
+shell.sh
+vim shell.sh
+chmod +x shell.sh
+./shell.sh
+vim shell.sh
+chmod +x shell.sh
+./shell.sh
+vim shell.sh
+chmod +x shell.sh
+./shell.sh
+vim shell.sh
+chmod +x shell.sh
+./shell.sh
+git init
+git add shell.sh
+git commit -m "second commit"
+git branch -M main
+git remote add origin https://github.com/karthik282707/model.git
+git push -u origin main
+git pull origin main --rebase
+git push origin main
+git pull origin master --rebase
+git push origin master
+git branch
+git add .
+git commit -m "first commit"
+git config --global user.name "karthik282707"
+git config --global user.email "karthikeyan.muthukumark07@gmail.com"
+git commit -m "first commit"
+git reset --soft HEAD~1
+mkdir myproject
+mv shell.sh myproject/
+cd myproject
+rm -rf .git
+git init
+git add shell.sh
+git commit -m "Added shell script"
+git branch -M main
+git remote add origin https://github.com/karthik282707/model.git
+git push -u origin main
+git branch -M main
+git remote add origin https://github.com/karthik282707/model.git
+git push -u origin main
+git branch -M main
+git remote add origin https://github.com/karthik282707/model.git
+git push -u origin main
